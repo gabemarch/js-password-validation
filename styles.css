@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 0.4rem;
+  color: #333;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+}
+
+.submit {
+  padding: 0.4rem;
+  background-color: #2091eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.length.active,
+.number.active,
+.uppercase.active,
+.special.active,
+.alphabetical-order.active,
+.repeating-characters.active,
+.typical-characters.active {
+  color: green;
+}
+
+.length.inactive,
+.number.inactive,
+.uppercase.inactive,
+.special.inactive,
+.alphabetical-order.inactive,
+.repeating-characters.inactive,
+.typical-characters.inactive {
+  color: red;
+}
+
+div > .reset {
+  color: #333;
+}
+
+.submit:disabled {
+  background: #666;
+  cursor: not-allowed;
+}

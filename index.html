@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Password Strength</title>
+</head>
+<body>
+  <form action="#" id="form">
+    <input id="password" type="password" class="password-input" minlength="8">
+    <button id="submit" class="submit" >Submit</button>
+    <div class="password-strength">
+      <div class="length">
+        Password should contain at least 8 characters
+      </div>
+      <div class="number">
+        Password should contain at least one number
+      </div>
+      <div class="uppercase">
+        Password should contain at least one uppercase character
+      </div>
+      <div class="special">
+        Password should contain at least one special character
+      </div>
+      <div class="alphabetical-order">
+        Password should not contain characters in alphabetical order
+      </div>
+      <div class="repeating-characters">
+        Password should not contain repeating characters
+      </div>
+      <div class="typical-characters">
+        Password should not contain typical sequences of characters
+      </div>
+    </div>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
